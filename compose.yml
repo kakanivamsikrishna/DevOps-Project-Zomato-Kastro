@@ -1,0 +1,8 @@
+---
+services:
+  application:
+    container_name: mycont
+    image: vamsikrishnakakani/nodeproject:zomato
+    ports:
+      - "1111:3000"
+    restart: unless-stopped
